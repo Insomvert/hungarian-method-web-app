@@ -1,0 +1,186 @@
+body{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #eee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5vh;
+    color: #4e2880;
+}
+.container{
+    width: 60%;
+    padding: 0;
+}
+.co-co{
+    width: 90%;
+}
+.rh{
+    height: 10vh;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}.rh p b{
+    font-weight: bold;
+    color: #e74f74;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rn{
+    background-color: #fff;
+    border-radius: 5px;
+    color: #555;
+    font-size: 1em;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    box-shadow: 0 10px 10px 0 rgba(27, 40, 51, 0.14);
+    transition: background-image 1s ease-in-out;
+    -webkit-transition: background-image 1s ease-in-out;
+}.rn i{ color: #4fe7c2;}
+.tabb .active{
+    color: #764db1;
+    background-image: linear-gradient(to right, #4fa6e7, #4fe7c2);color:#fff
+}
+.rj{
+    background-color: #fff;
+    margin: 2rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 0 rgba(27, 40, 51, 0.14);
+    border-top: 2px solid #4fe7c2;
+}.rj form{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.rj .input-jum {
+    width: 25%;
+    display: block;
+    height: calc(1.5em + 0.75rem + 2px);
+    margin-left:0.5rem ;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem 0 0 0.25rem;
+    transition: border-color 0.5s ease-in-out, box-shadow 0.15s ease-in-out;
+    height: calc(1.5em + 0.5rem + 2px);
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}.rj .btn-primary{
+    color: #fff;
+    background-color: #4fa6e7;
+    border: 0;
+}.rj .btn-success{ background-color:  #4fe7c2; color: #fff;border:0;}.rj .btn-success:hover{background-color: #42cca9;}
+.rj .ij{
+    font-weight: normal;
+    font-size: 1em;
+    color: rgb(126, 126, 126);
+}
+.ri{
+    background-color: #fff;
+    margin: 2rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 0 rgba(27, 40, 51, 0.14);
+    border-top: 2px solid #e74f74;
+}.ri .in{
+    width: 100%;
+    font-weight: lighter;
+    color: #4e2880;
+    text-align: left;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #4fe7c2;
+}.ri .btn-success{ background-color:  #4fe7c2; color: #fff; border: 0;}.ri .btn-success:hover{background-color: #42cca9;}
+.ri .no{
+    display: none;
+}
+.jt{
+    font-weight: lighter;
+    font-size: 20px;
+}
+input{
+    padding: 4px;
+}
+table{
+    width: 100%;
+}
+table .table-primary{
+    background-color: #4fbffd;
+    color: #4e2880;
+}
+table td{
+    padding: 0.5rem;
+}
+.ri table th{
+    font-weight: lighter;
+    font-size: 1em;
+    color: #764db1;
+    border-bottom: 0.3px solid #4fe7c2;
+    border-top: 0.3px solid #4fe7c2;
+}
+.tcost input{
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    height: calc(1.5em + 0.5rem + 2px);
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+.nn{
+    margin-left: 1rem;
+
+}
+.rj .check{
+    margin: 0 1rem 0 1rem;
+}.rj .check label{
+    margin-left: 0.5rem;
+    font-weight: lighter;
+    font-size: 3.5vh;
+}
+.bth{
+    position: absolute;
+    top:0;
+}
+
+@media only screen and (max-width: 917px){
+    .container{ width: 90%;}
+}
+@media only screen and (max-width: 787px){
+    .rh{ font-size: 1.5em;}
+    .rn{ font-size: 1em;}
+    .nn{ display: none;}
+    .ri .in{ width: 100%;}
+    .ri .btn-success{ width: 100%;}
+}
+@media only screen and (max-width: 540px){
+    .rn{ margin: 0; border-radius: 0;}
+    .rh{ display: none;}
+    .tabb{ margin-top: 2rem;}
+}

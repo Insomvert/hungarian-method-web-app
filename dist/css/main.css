@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../img/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar-brand{
+    color: #fe97aa;
+    font-size: 2rem;
+    margin-left: 2rem;
+}.nav-link{color:#4e2880;}
+img{
+    width: 100%;
+}
+.hero{
+    font-size: 4.5rem;
+    color: #4fbffd;
+}.hero b{color: #4e2880;}
+.ct{
+    font-size: 1.5rem;
+    color: #fe97aa;
+}
+.btn{
+    background-color: #fe97aa;
+    color: #fff;
+    border-radius: 100px;
+}.btn:hover{
+    background-color: #d56177;
+    color: #fff;
+}
+@media only screen and (max-width: 767px){
+    
+}
+@media only screen and (max-width: 917px){
+    .hero{ font-size: 3rem;}
+}
